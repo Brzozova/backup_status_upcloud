@@ -45,3 +45,4 @@ class Servers(BaseAPI):
         endpoint = "/server/" + srvid
 
 if __name__ == "__main__":
+    srvid = Servers().do()
